@@ -1,0 +1,9 @@
+{
+  "presets": ["es2015", "es2016", "react"],
+  "plugins": [
+    "transform-runtime",
+    "babel-plugin-syntax-async-functions",
+    "babel-plugin-transform-regenerator",
+    "babel-plugin-transform-class-properties"
+  ]
+}
