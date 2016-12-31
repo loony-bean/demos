@@ -7,7 +7,7 @@
     "classnames": "^2.2.5",
     "react": "^15.3.0",
     "react-dom": "^15.3.0",
-    "react-redux": "^4.4.5",
+    "react-redux": "^5.0.1",
     "redux": "^3.5.2",
     "redux-thunk": "^2.1.0",
     "reselect": "^2.5.3",
@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "babel-core": "^6.11.4",
-    "babel-eslint": "^6.1.2",
+    "babel-eslint": "^7.1.1",
     "babel-loader": "^6.2.4",
     "babel-plugin-syntax-async-functions": "^6.8.0",
     "babel-plugin-transform-class-properties": "^6.11.5",
@@ -33,9 +33,10 @@
     "postcss-apply": "^0.4.0",
     "postcss-calc": "^5.3.1",
     "postcss-css-variables": "^0.6.0",
-    "postcss-import": "^8.2.0",
+    "postcss-import": "^9.0.0",
     "postcss-loader": "^1.1.1",
     "postcss-nested": "^1.0.0",
+    "recharts": "^0.20.1",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.1"
@@ -43,6 +44,6 @@
   "scripts": {
     "build_dev": "webpack -d",
     "build_prod": "webpack -p",
-    "watch": "webpack -d --watch"
+    "watch": "webpack -d --watch --progress"
   }
 }

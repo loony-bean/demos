@@ -1,0 +1,35 @@
+.dots {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 670px;
+  margin: 16px 0;
+}
+
+.legend {
+  width: 670px;
+  margin: 16px 0;
+  text-align: center;
+}
+
+.legend_item {
+  padding: 0px 8px;
+  font-size: 24px;
+  margin: 2px;
+  border: 2px solid gray;
+  border-radius: 8px;
+}
+
+.letter {
+  font-size: 18px;
+  min-width: 4px;
+  height: 4px;
+  text-align: center;
+  border: 0px solid #999;
+  border-radius: 2px;
+}
+
+.button {
+  padding: 6px;
+  margin: 0 4px;
+}

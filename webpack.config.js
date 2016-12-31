@@ -1,6 +1,7 @@
 module.exports = {
     entry: {
-      'pooh-chat': __dirname + "/apps/pooh-chat/index.js"
+      'pooh-chat': __dirname + "/apps/pooh-chat/index.js",
+      'commas': __dirname + "/apps/commas/index.js"
     },
     output: {
         path: __dirname + "/web/",
@@ -9,12 +10,12 @@ module.exports = {
     module: {
         loaders: [
             {
-                test: /\.css$/, 
+                test: /\.css$/,
                 include: /node_modules/,
                 loader: 'style-loader!css-loader'
             },
             {
-                test: /\.css$/, 
+                test: /\.css$/,
                 exclude: /node_modules/,
                 loader: 'style-loader!css-loader?modules&importLoaders=1!postcss-loader'
             },
